@@ -8,5 +8,6 @@ The objective of this project is to use exploratory data analysis (EDA) and regr
 
 We'll try a univariate analysis (one involving a single explanatory variable) as well as a multivariate one (involving multiple explanatory variables), and we'll iterate together towards a decent model by the end of the notebook.
 
-For this notebook, we're going to use the red wine dataset, wineQualityReds.csv. This is a very common dataset for practicing regression analysis and is actually freely available on Kaggle, here.
+For this notebook, we're going to use the red wine dataset, wineQualityReds.csv. This is a very common dataset for practicing regression analysis and is actually freely available on Kaggle, [here](https://www.kaggle.com/piyushgoyal443/red-wine-dataset)
+
 
