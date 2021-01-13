@@ -57,3 +57,16 @@ For this notebook, we're going to use the red wine dataset, wineQualityReds.csv.
 
 2. Seaborn Heatmap:
 ![heatmap](https://user-images.githubusercontent.com/67468718/104465194-9fbf3480-5568-11eb-8057-d20bdaac3048.JPG)
+
+### Feature Selection:
+
+After Analyzing the correlation from above visualizations we noticed the following:
+
+* A given cell value represents the correlation that exists between two variables 
+* On the diagonal, you can see a bunch of histograms. This is because pairplotting the variables with themselves would be pointless, so the pairplot() method instead makes histograms to show the distributions of those variables' values. This allows us to quickly see the shape of each variable's values.  
+* The plots for the quality variable form horizontal bands, due to the fact that it's a discrete variable. We were certainly right in not pursuing a regression analysis of this variable.
+* Notice that some of the nice plots invite a line of best fit, such as alcohol vs density. Others, such as citric acid vs alcohol, are more inscrutable.
+* There is a relatively strong correlation between the density and fixed acidity variables respectively, let's explore this correlation further using scatterplot and regplot with 1st and 2nd order regressions:
+
+![density](https://user-images.githubusercontent.com/67468718/104465548-004e7180-5569-11eb-906f-275ec5380264.JPG)
+
