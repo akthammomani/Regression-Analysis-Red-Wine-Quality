@@ -51,6 +51,9 @@ For this notebook, we're going to use the red wine dataset, wineQualityReds.csv.
 
 ## Feature Engineering: 
 
+### Visualizing correlations using: seaborn pairplot & heatmap as shown below:
+1. Seaborn pairplot:
 ![pairplot](https://user-images.githubusercontent.com/67468718/104464724-1d367500-5568-11eb-9796-1809d6bc5e4a.jpg)
 
-
+2. Seaborn Heatmap:
+![heatmap](https://user-images.githubusercontent.com/67468718/104465194-9fbf3480-5568-11eb-8057-d20bdaac3048.JPG)
