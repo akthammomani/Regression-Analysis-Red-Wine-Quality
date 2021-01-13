@@ -10,24 +10,6 @@ We'll try a univariate analysis (one involving a single explanatory variable) as
 
 For this notebook, we're going to use the red wine dataset, wineQualityReds.csv. This is a very common dataset for practicing regression analysis and is actually freely available on Kaggle, [here](https://www.kaggle.com/piyushgoyal443/red-wine-dataset)
 
-## Content:
-
-**1. Sourcing and loading** 
-* Import relevant libraries
-* Load the data 
-* Exploring the data
-* Choosing a dependent variable
- 
-**2. Cleaning, transforming, and visualizing**
-* Visualizing correlations
-  
-  
-**3. Modeling** 
-* Train/Test split
-* Making a Linear regression model: First model
-* Making a Linear regression model: Second model: **Ordinary Least Squares (OLS)**
-* Making a Linear regression model: Third model: **Multiple Linear Regression**
-* Making a Linear regression model: Fourth model: **Avoiding Redundancy**
 
 **4. Evaluating and concluding** 
 * Reflection 
@@ -51,14 +33,14 @@ For this notebook, we're going to use the red wine dataset, wineQualityReds.csv.
 
 ## Feature Engineering: 
 
-### Visualizing correlations using: seaborn pairplot & heatmap as shown below:
+#### Visualizing correlations using: seaborn pairplot & heatmap as shown below:
 1. Seaborn pairplot:
 ![pairplot](https://user-images.githubusercontent.com/67468718/104464724-1d367500-5568-11eb-9796-1809d6bc5e4a.jpg)
 
 2. Seaborn Heatmap:
 ![heatmap](https://user-images.githubusercontent.com/67468718/104465194-9fbf3480-5568-11eb-8057-d20bdaac3048.JPG)
 
-### Feature Selection:
+## Feature Selection:
 
 After Analyzing the correlation from above visualizations we noticed the following:
 
@@ -69,4 +51,25 @@ After Analyzing the correlation from above visualizations we noticed the followi
 * There is a relatively strong correlation between the density and fixed acidity variables respectively, let's explore this correlation further using scatterplot and regplot with 1st and 2nd order regressions:
 
 ![density](https://user-images.githubusercontent.com/67468718/104465548-004e7180-5569-11eb-906f-275ec5380264.JPG)
+
+## Modeling:
+
+* Train/Test split
+* Making a Linear regression model: First model
+* Making a Linear regression model: Second model: **Ordinary Least Squares (OLS)**
+* Making a Linear regression model: Third model: **Multiple Linear Regression**
+* Making a Linear regression model: Fourth model: **Avoiding Redundancy**
+
+## Conclusions & next steps:
+
+#### Conclusions:
+  1. While our most predictively powerful model was **'multiple linear regression'**, this model had explanatory variables that were correlated with one another, which made some redundancy. 
+  2. Our most elegant and economical model was rModel4 - it used just a few predictors to get a good result. 
+  
+  ![Model4](https://user-images.githubusercontent.com/67468718/104470453-93d67100-556e-11eb-91ff-56d3463e7d39.JPG)
+
+#### next steps:
+All of our models in this notebook have used the OLS algorithm - Ordinary Least Squares. There are many other regression algorithms, and if you have time, it would be good to investigate them. You can find some examples [here](https://www.statsmodels.org/dev/examples/index.html#regression). Be sure to make a note of what you find, and chat through it with your mentor at your next call.
+
+
 
