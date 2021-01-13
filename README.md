@@ -63,8 +63,8 @@ After Analyzing the correlation from above visualizations we noticed the followi
 ## Conclusions & next steps:
 
 #### Conclusions:
-  1. While our most predictively powerful model was **'multiple linear regression'**, this model had explanatory variables that were correlated with one another, which made some redundancy. 
-  2. Our most elegant and economical model was rModel4 - it used just a few predictors to get a good result. 
+  1. While our most predictively powerful model was **Third Model: 'multiple linear regression'**, this model had explanatory variables that were correlated with one another, which made some redundancy. 
+  2. Our most elegant and economical model was **Fourth Model: 'Avoiding Redundancy'** - it used just a few predictors to get a good result. 
   
   ![Model4](https://user-images.githubusercontent.com/67468718/104470453-93d67100-556e-11eb-91ff-56d3463e7d39.JPG)
 
