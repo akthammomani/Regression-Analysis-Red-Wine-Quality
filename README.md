@@ -51,6 +51,6 @@ For this notebook, we're going to use the red wine dataset, wineQualityReds.csv.
 
 ## Feature Engineering: 
 
-![pairplot](https://user-images.githubusercontent.com/67468718/104464084-676b2680-5567-11eb-8613-681c63368b50.jpg)
+![pairplot](https://user-images.githubusercontent.com/67468718/104464478-d2b4f880-5567-11eb-9c77-813f6d3b1c26.jpg)
 
 
