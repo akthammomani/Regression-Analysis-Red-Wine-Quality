@@ -1,1 +1,12 @@
-# Regression-Analysis-Red-Wine-Quality
+# Regression Analysis: Red Wine Quality
+
+![Red_wine](https://user-images.githubusercontent.com/67468718/104449221-20733600-5553-11eb-9449-20c930dc57cb.jpg)
+
+### Introduction
+
+The objective of this project is to use exploratory data analysis (EDA) and regression to predict alcohol levels in wine with a model that's as accurate as possible.
+
+We'll try a univariate analysis (one involving a single explanatory variable) as well as a multivariate one (involving multiple explanatory variables), and we'll iterate together towards a decent model by the end of the notebook.
+
+For this notebook, we're going to use the red wine dataset, wineQualityReds.csv. This is a very common dataset for practicing regression analysis and is actually freely available on Kaggle, here.
+
