@@ -42,7 +42,7 @@ For this notebook, we're going to use the red wine dataset, wineQualityReds.csv.
 
 ## Feature Selection:
 
-After Analyzing the correlation from above visualizations we noticed the following:
+After Analyzing the correlation from the visualizations above we noticed the following:
 
 * A given cell value represents the correlation that exists between two variables 
 * On the diagonal, you can see a bunch of histograms. This is because pairplotting the variables with themselves would be pointless, so the pairplot() method instead makes histograms to show the distributions of those variables' values. This allows us to quickly see the shape of each variable's values.  
