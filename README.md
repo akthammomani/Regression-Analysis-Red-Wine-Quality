@@ -68,8 +68,6 @@ After Analyzing the correlation from the visualizations above we noticed the fol
   
   ![Model4](https://user-images.githubusercontent.com/67468718/104470453-93d67100-556e-11eb-91ff-56d3463e7d39.JPG)
 
-#### next steps:
-All of our models in this notebook have used the OLS algorithm - Ordinary Least Squares. There are many other regression algorithms, and if you have time, it would be good to investigate them. You can find some examples [here](https://www.statsmodels.org/dev/examples/index.html#regression). Be sure to make a note of what you find, and chat through it with your mentor at your next call.
 
 
 
