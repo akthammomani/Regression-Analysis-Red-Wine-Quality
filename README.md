@@ -16,7 +16,7 @@ For this notebook, we're going to use the red wine dataset, wineQualityReds.csv.
 * Which model was best?
 * Other regression algorithms
 
-## Description of Wine Dataset Features:
+## 2. Description of Wine Dataset Features:
 
 * <code>fixed acidity</code>: most acids involved with wine or fixed or nonvolatile (do not evaporate readily)
 * <code>volatile acidity</code>: the amount of acetic acid in wine, which at too high of levels can lead to an unpleasant, vinegar taste
@@ -31,7 +31,7 @@ For this notebook, we're going to use the red wine dataset, wineQualityReds.csv.
 * <code>alcohol</code>: the percent alcohol content of the wine
 * <code>quality</code> (score between 0 and 10)
 
-## Feature Engineering: 
+## 3. Feature Engineering: 
 
 #### Visualizing correlations using: seaborn pairplot & heatmap as shown below:
 1. Seaborn pairplot:
@@ -40,7 +40,7 @@ For this notebook, we're going to use the red wine dataset, wineQualityReds.csv.
 2. Seaborn Heatmap:
 ![heatmap](https://user-images.githubusercontent.com/67468718/104465194-9fbf3480-5568-11eb-8057-d20bdaac3048.JPG)
 
-## Feature Selection:
+## 4. Feature Selection:
 
 After Analyzing the correlation from the visualizations above we noticed the following:
 
@@ -52,7 +52,7 @@ After Analyzing the correlation from the visualizations above we noticed the fol
 
 ![density](https://user-images.githubusercontent.com/67468718/104465548-004e7180-5569-11eb-906f-275ec5380264.JPG)
 
-## Modeling:
+## 5. Modeling:
 
 * Train/Test split
 * Making a Linear regression model: First model
@@ -60,7 +60,7 @@ After Analyzing the correlation from the visualizations above we noticed the fol
 * Making a Linear regression model: Third model: **Multiple Linear Regression**
 * Making a Linear regression model: Fourth model: **Avoiding Redundancy**
 
-## Conclusions & next steps:
+## 6. Conclusions & next steps:
 
 #### Conclusions:
   1. While our most predictively powerful model was **Third Model: 'multiple linear regression'**, this model had explanatory variables that were correlated with one another, which made some redundancy. 
