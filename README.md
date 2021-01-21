@@ -11,7 +11,7 @@ We'll try a univariate analysis (one involving a single explanatory variable) as
 For this notebook, we're going to use the red wine dataset, wineQualityReds.csv. This is a very common dataset for practicing regression analysis and is actually freely available on Kaggle, [here](https://www.kaggle.com/piyushgoyal443/red-wine-dataset)
 
 
-** ✰ Evaluating and concluding** 
+**✰ Evaluating and concluding** 
 * Reflection 
 * Which model was best?
 * Other regression algorithms
