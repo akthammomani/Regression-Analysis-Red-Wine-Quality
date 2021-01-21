@@ -1,8 +1,8 @@
-# Regression Analysis: Red Wine Quality
+# ✰ Regression Analysis: Red Wine Quality
 
 ![Red_wine](https://user-images.githubusercontent.com/67468718/104449221-20733600-5553-11eb-9449-20c930dc57cb.jpg)
 
-## Introduction
+## 1. Introduction
 
 The objective of this project is to use exploratory data analysis (EDA) and regression to predict alcohol levels in wine with a model that's as accurate as possible.
 
